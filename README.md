@@ -20,3 +20,19 @@ SAX 的工作原理简单地说就是对文档进行顺序扫描，当扫描到�
 样的扫描，直至文档结束。
 优点：消耗资源比较少；适合大文件解析；
 缺点：只能读取不能修改；开发复杂；
+
+JDOM  引入
+---------
+JDOM 是一种使用 XML（标准通用标记语言下的一个子集） 的独特 Java 工具包，用于快速开发 XML 应用
+程序。
+JDOM 官方网站：http://www.jdom.org/
+
+DOM4J  引入
+----------
+dom4j 是一个 Java 的 XMLAPI，类似于 jdom，用来读写 XML 文件的。dom4j 是一个非常非常优秀的 JavaXML
+API，具有性能优异、功能强大和极端易用使用的特点，同时它也是一个开放源代码的软件，可以在 SourceForge
+上找到它。在 IBM developerWorks 上面可以找到一篇文章，对主流的 Java XMLAPI 进行的性能、功能和易用性
+的评测，dom4j 无论在哪个方面都是非常出色的。如今你可以看到越来越多的 Java 软件都在使用 dom4j 来读写
+XML，特别值得一提的是连 Sun 的 JAXM 也在用 dom4j。这是必须使用的 jar 包， Hibernate 用它来读写配置文
+件。
+DOM4J 官方网站：http://www.dom4j.org/
